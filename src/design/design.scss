@@ -1,0 +1,28 @@
+html{
+  height: 100%;
+  width: 100%;
+  body{
+    height: 100%;
+    width: 100%;
+    header{
+      background: green;
+      color: orange;
+      padding: 10px;
+      position: fixed;
+      top: 0px;
+      width: 100%;
+    }
+    footer{
+      background: green;
+      padding: 20px;
+      bottom: 0px;
+      position: fixed;
+      width: 100%;
+    }
+    main{
+      padding: 10px;
+      background: tan;
+      margin: 120px 10px;
+    }
+  }
+}
