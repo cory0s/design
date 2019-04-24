@@ -1,0 +1,27 @@
+@mixin nav {
+  ul{
+    display: flex;
+    li{
+      // width: 44px;
+      // height: 44px;
+      margin: 5px auto;
+      clear: both;
+      ul{
+        display: none;
+        li:hover a,
+        li a:hover{
+          background: tan;
+          color: green;
+        }
+      }
+    }
+  }
+  li:hover a,
+  li a:hover{
+    background: lightgreen;
+    color: white;
+  }
+  li:hover ul{
+    display: block;
+  }
+}
