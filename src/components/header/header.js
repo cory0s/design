@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Header = props => {
   return (
@@ -8,18 +8,63 @@ const Header = props => {
       <nav>
         <ul>
           <li>
-            <a href="/">HOme</a>
-          </li>
-          <li>
-            <a href="/">HOme</a>
+            <a href="/">Home</a>
+            <ul>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+            </ul>
           </li>
 
           <li>
-            <a href="/">HOme</a>
+            <a href="/">Vacation</a>
+            <ul>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+            </ul>
           </li>
 
           <li>
-            <a href="/">HOme</a>
+            <a href="/">Stuff</a>
+            <ul>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="/">Things</a>
+            <ul>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+              <li>
+                <a href="/">Stuff</a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
