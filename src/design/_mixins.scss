@@ -1,0 +1,25 @@
+@mixin nav {
+  ul{
+    display: flex;
+    li{
+      // width: 44px;
+      // height: 44px;
+      margin: 5px auto;
+      clear: both;
+      ul{
+        display: none;
+        li:hover a,
+        li a:hover{
+          color: red;
+        }
+      }
+    }
+  }
+  li:hover a,
+  li a:hover{
+    color: blue;
+  }
+  li:hover ul{
+    display: block;
+  }
+}
