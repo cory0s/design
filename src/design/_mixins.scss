@@ -10,16 +10,14 @@
         display: none;
         li:hover a,
         li a:hover{
-          background: tan;
-          color: green;
+          color: red;
         }
       }
     }
   }
   li:hover a,
   li a:hover{
-    background: lightgreen;
-    color: white;
+    color: blue;
   }
   li:hover ul{
     display: block;
